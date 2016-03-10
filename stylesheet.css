@@ -53,7 +53,7 @@ i:hover{
 }
 
 #h2 {
-	background-color: rgb(190,190,190); /*временно, потом будет цвета фона, то есть белый*/
+	background-color: rgb(190,190,190);
 	height: 200px;
 	width: 100%;
 		display:flex;
@@ -62,7 +62,6 @@ i:hover{
 }
 
 #siteBrand{	
-	/*background-color: brown; /* цвет буйков*/
 	height:100%;
 	width:500px;
 	margin-left:50px;
@@ -85,6 +84,11 @@ i:hover{
 		justify-content: center;	
 }
 
+#logo:hover{
+	cursor: default; 
+}
+
+
 #name{
 	color:white;
 	margin-left:20px;
@@ -92,6 +96,10 @@ i:hover{
 		display:flex;	
 		align-items:center;		
 		justify-content: center;		
+}
+
+#name:hover{
+	cursor: default; 
 }
 
 #navigation{
@@ -102,7 +110,6 @@ i:hover{
 		justify-content: center;
 }
 
-
 li{
 	margin-right:20px;
 	color:white;
@@ -112,3 +119,52 @@ a{
 	text-decoration:none;
 	color:white;
 }
+
+
+
+section{
+	background-color: rgb(225,240,240); 
+	height: 245px;
+	width: 100%;
+}
+
+#path{
+	width: 100%;
+	background-color: rgb(200,200,240); 
+	height: 45px; 
+		display:flex;
+		align-items:center;
+}
+
+#path a{
+	margin-left:95px;	
+}
+
+#path i{
+	margin: 0px 15px;
+}
+
+#path div{
+	color: rgb(225,240,240);
+}
+
+#underPath{
+	height:200px;
+	color:black;
+	font-family: Eras Light ITC, Calibri;
+		display:flex;
+		flex-direction: column ;
+		justify-content: center;
+}
+
+#underPath h1{
+	margin: 0px 0px 0px 95px;
+	font-size:35px;
+}
+
+#underPath div{
+	color: gray;
+	margin-left:95px;
+	font-size:25px;
+}
+
