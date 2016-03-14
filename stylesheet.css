@@ -103,7 +103,6 @@ i:hover{
 }
 
 #navigation{
-	list-style:none;
 	margin-right:50px;
 	display:flex;
 		align-items:center;
@@ -113,6 +112,7 @@ i:hover{
 li{
 	margin-right:20px;
 	color:white;
+	list-style:none;
 }
 
 a{
@@ -122,7 +122,7 @@ a{
 
 
 
-section{
+#section1{
 	background-color: rgb(225,240,240); 
 	height: 245px;
 	width: 100%;
@@ -151,6 +151,7 @@ section{
 #underPath{
 	height:200px;
 	color:black;
+	cursor:default;
 	font-family: Eras Light ITC, Calibri;
 		display:flex;
 		flex-direction: column ;
@@ -168,3 +169,75 @@ section{
 	font-size:25px;
 }
 
+#sect2nav{
+	margin-left:95px;
+	margin-top: 50px;
+	width:950px;
+	height:60px;
+	background-color: rgb(235,235,235); 
+		display:flex;
+		align-items:center;
+}
+
+#sect2nav ul{
+	padding:5px;
+		display:flex;		
+}
+
+#sect2nav li{
+	margin-right: 5px;
+		display:flex;
+		align-items:center;		
+}
+
+#sect2nav a{
+	padding: 17px;
+	background-color: rgb(237,237,237); 
+	color:black;
+}
+
+#sect2nav a:focus {
+	background-color:rgb(200,200,240);
+	color:white; 
+}
+
+
+
+menu{
+	padding: 0px;
+	height: 850px;
+	width: 100%;
+}
+
+#sect2menu{
+	width:1100px;
+	margin-left:45px;
+	margin-top: 50px;
+	background-color: white;
+	
+		display: flex;
+		align-self: flex-start;
+		flex-flow: row wrap; 
+}
+
+figure{
+	margin: 25px 50px;
+	color: blue;
+	font-weight:bold;
+	font-size:20px;
+}
+
+.date{
+	margin-top: 5px;
+	font-size:14px;
+	font-weight: normal;
+	color: gray;
+}
+
+
+#sectionBuy{
+	height: 100px;
+	width: 100%;
+	background-color: yellow;
+	
+}
