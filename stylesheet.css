@@ -214,7 +214,6 @@ menu{
 	margin-left:45px;
 	margin-top: 50px;
 	background-color: white;
-	
 		display: flex;
 		align-self: flex-start;
 		flex-flow: row wrap; 
@@ -222,7 +221,7 @@ menu{
 
 figure{
 	margin: 25px 50px;
-	color: blue;
+	color: rgba(52,124,190,0.9);
 	font-weight:bold;
 	font-size:20px;
 }
@@ -238,6 +237,55 @@ figure{
 #sectionBuy{
 	height: 100px;
 	width: 100%;
-	background-color: yellow;
-	
+	background-color: rgb(225,240,240);
+	font-size:20px;
+	font-weight:bold;
+	color:rgb(97,72,238);
+		display:flex;	
+		align-items:center;		
+		justify-content: center;
 }
+
+button{
+	padding:10px;
+	background-color:rgb(35,92,135);
+	font-weight:bold;
+	font-size:15px;
+	color:white;
+	border-radius:5px;
+	margin-left:5px;
+}
+
+
+#networks{
+	height: 100px;
+	width: 1158px;
+	background-color: rgba(52,124,190,0.7);
+	font-size:30px;
+	color:white;
+	padding: 0px 95px;
+		display:flex;	
+		align-items:center;			
+}
+
+.botButton{
+	background-color:rgb(35,92,135); 
+	height:45px;
+	width:45px;
+	margin: 0px 1px;
+	text-decoration:none;	
+	font-size: 35px; 
+		display:flex;
+		align-items:center;
+		justify-content: center;
+}
+
+.botButton i:hover{
+	color:violet;
+}
+
+#fackingButtons{
+	margin-left: 550px;
+	display:flex;
+}
+
