@@ -226,6 +226,10 @@ figure{
 	font-size:20px;
 }
 
+figcaption{
+	cursor: default;
+}
+
 .date{
 	margin-top: 5px;
 	font-size:14px;
@@ -240,6 +244,7 @@ figure{
 	background-color: rgb(225,240,240);
 	font-size:20px;
 	font-weight:bold;
+	cursor: default;
 	color:rgb(97,72,238);
 		display:flex;	
 		align-items:center;		
@@ -254,8 +259,13 @@ button{
 	color:white;
 	border-radius:5px;
 	margin-left:5px;
+	cursor: pointer;
 }
-
+button:active{
+	background-color:rgb(55,102,155);
+	margin-bottom:3px;
+	margin-right: 1px;
+}
 
 #networks{
 	height: 100px;
@@ -263,6 +273,8 @@ button{
 	background-color: rgba(52,124,190,0.7);
 	font-size:30px;
 	color:white;
+	
+	cursor: default;
 	padding: 0px 95px;
 		display:flex;	
 		align-items:center;			
@@ -289,3 +301,131 @@ button{
 	display:flex;
 }
 
+
+
+
+
+footer{
+	background-color:grey;
+	height: 530px;
+	width: 100%;
+}
+#footerSection{
+	display:flex;
+	height:470px;
+}
+.footerDiv{
+	margin-top:30px;
+	width:350px;
+	color:white;
+	font-size:25px;
+	cursor:default;
+}
+
+#botDiv1{
+	margin-left:95px;
+}
+
+#botDivIn{
+	margin-top:20px;
+	margin-right:40px;
+	font-size:16px;
+	color:silver;
+}
+
+.botBigDiv3{
+	margin-top:20px;
+	color:rgb(221,221,221);
+	font-size:19px;
+}
+
+.botSmallDiv3{
+	margin-top:5px;
+	font-size:16px;
+	color:silver;
+}
+
+.botBigDiv2{
+	
+	margin: 25px 0px;
+	width:280px;
+	background-color:rgb(60,60,60);	
+	padding:20px;
+	overflow: hidden; 
+}
+
+
+input{
+	border-radius:5px;
+	margin-top:25px;
+	width: 230px;
+	height:25px;
+}
+#divBotton{
+	border-radius:5px;
+	width:35px;
+	height:30px;
+	background-color:silver;
+	margin-top:26px;
+	margin-left:5px;
+	cursor:pointer;
+	font-size:16px;
+		display:flex;
+		align-items:center;
+		justify-content: center;
+}
+
+#botNav{
+	display:flex;
+}
+
+#bbd1{
+	height:100px;
+	font-size:16px;
+	color:silver;
+	line-height:20px;
+}
+
+#bbd2{
+	height:60px;
+	font-size:16px;
+	color:silver;
+	line-height:20px;
+}
+
+#bottom {
+			height:60px;
+			width:100%;
+			background-color:rgb(60,60,60);
+			color:silver;
+			display:flex;
+			cursor:default;
+		align-items:center;
+		justify-content: center;
+			
+}
+#bottom ul{
+		margin-right:430px;
+			display:flex;
+			
+}
+
+#bottom li{
+			cursor:pointer;
+}
+
+span{
+	color:white
+}
+
+.twitterGround{
+	position: relative;
+}
+
+.twitterGround i {
+	color:grey;
+	position: relative;
+	font-size:80px;
+	position: absolute;
+	bottom: -70px;
+}
